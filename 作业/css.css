@@ -1,0 +1,255 @@
+
+a,div,ul, li,i,span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body{
+	min-width:1100px;
+	color: #2c3a46;
+	background: #ffffff;
+	font-size: 14px;
+	line-height:1.6em;
+	font-family: Arial, Helvetica, Verdana,sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.ma {
+    width:100%;
+    min-width: 1100px;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    transition: all 0.5s ease-in;
+}
+.select{
+	color:#ff4444;
+}
+.list li{
+
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+li.q{
+	padding: 0px 0px 0px 20px;
+}
+li .w{
+	padding: 0px 0px 0px 10px;
+}
+
+.denglu{
+	width: 80px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 2px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #2B90ED;
+	color: #2B90ED;
+}
+.zhuce{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: #2B90ED;
+	color: #ffffff;
+}
+
+
+.nav_top {
+	width: 100%;
+	border-bottom: 1px solid rgb(237, 237, 237);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in;
+}
+
+.nav {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1100px;
+    height: 70px;
+    zoom: 1;
+}
+
+.log{
+    display: inline-block;
+    width: 72px;
+    height: 25px;
+    margin-top: 22.5px;
+    background-size: 72px 25px;
+    background-image: url(images//1.png)
+}
+.cont{
+    display: inline-block;
+    width: 60px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+.link{
+    float: left;
+    width: 78px;
+    color: #999;
+    font-size: 10px;
+    font-family: 'PingFang SC';
+    font-weight: 300;
+    line-height: 13px;
+}
+ .list {
+	float: right;
+    zoom: 1;
+}
+.ma ul{
+	list-style: none;
+}
+
+.lanmu{
+	z-index: 200;
+	margin-right: -12px;
+
+}
+.fuwu {
+	position: relative;
+    display: inline-block;
+}
+
+
+.banner {
+	width: 100%;
+	position: relative;
+}
+
+.banner .pic img {
+	width: 100%;
+}
+
+.p {
+	font-size:20px;
+	color:#fff;
+	margin-bottom:55px;
+}
+
+a.pink-button {
+	color: #eb737f;
+	background-color: #fff;
+    padding: 12px 42px;
+}，
+a.button {
+	font-size: 14px;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.banner .left, .banner .right {
+	position: absolute;
+	top: 45%;
+}
+
+.banner .left {
+	left: 0%;
+}
+
+.banner .right {
+	right: 0%;
+}
+
+.ma .content {
+	width: 1100px;
+	overflow: hidden;
+	margin: 90px auto 0;
+}
+
+.content-ma-left {
+	float: left;
+}
+
+.content-ma-right {
+	margin-top: 50px;
+	float: right;
+}
+
+.ma .content h3 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 28px;
+	color: rgb(51, 51, 51);
+	letter-spacing: 0;
+}
+
+.content .wenzi {
+	margin-bottom: 30px;
+}
+
+.content .wenzi.title {
+	color: rgb(51, 51, 51);
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0;
+}
+
+.content .wenzi .warp {
+	margin-top: 5px;
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.content .wenzi .try {
+	background: rgb(43, 144, 237);
+	color: #fff;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 15px;
+	border: 1px solid rgb(51, 136, 255);
+	padding: 10px 40px;
+}
+
+.g {
+	width: 80px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 2px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #2B90ED;
+	color: #2B90ED;
+}
+
+.content .wenzi.introduce {
+	border: 1px solid rgb(51, 136, 255);
+	color: rgb(51, 136, 255);
+	padding: 9px 42px;
+display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 2px;
+	box-sizing: border-box;
+	cursor: pointer;
+	
+	
+	
+}
